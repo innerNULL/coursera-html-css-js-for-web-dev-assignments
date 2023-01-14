@@ -1,0 +1,59 @@
+h1 {
+  margin: 50px;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.menu {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 35px;
+  margin: 30px; 
+}
+
+
+@media only screen and (min-width: 992px) {
+  .menu {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .menu {
+    grid-template-columns: auto auto;
+  }
+}
+
+
+.meal {
+  background-color: lightgrey;
+  border: 2px solid black;
+  width: 100%;
+}
+
+
+.meal_title {
+  border: 2px solid black;
+  width: 25%;
+  margin-top: -2px;
+  margin-right: -2px;
+  float: right;
+}
+
+
+#chicken_title {
+  background-color: pink;
+}
+
+
+#beef_title {
+  background-color: darkred;
+  color: aliceblue;
+}
+
+
+#sushi_title {
+  background-color: burlywood;
+}

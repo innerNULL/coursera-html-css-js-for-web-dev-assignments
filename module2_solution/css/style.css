@@ -1,5 +1,5 @@
 h1 {
-  margin: 50px;
+  margin: 22px;
   text-align: center;
   font-style: italic;
 }
@@ -35,11 +35,12 @@ h1 {
 
 
 .meal_title {
+  position: relative;
   border: 2px solid black;
   width: 25%;
   margin-top: -2px;
   margin-right: -2px;
-  float: right;
+  margin-left: auto;
 }
 
 
